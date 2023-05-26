@@ -20,6 +20,7 @@
             </nav>
         </header>
         <h1>Exercícios HTML</h1>
+        <h3>Parágrafos e quebras de linha</h3>
     
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia impedit vero, dignissimos itaque perferendis obcaecati consectetur ipsa eligendi sequi aspernatur magni amet, nulla accusantium, perspiciatis neque ab eveniet illo ad!
     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
@@ -39,7 +40,7 @@
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repudiandae amet aspernatur soluta. Error iure illo accusantium facere exercitationem veritatis, unde, nam mollitia quaerat soluta laborum qui, non delectus perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo aspernatur laboriosam quod sequi. Debitis veniam consequuntur magni veritatis ratione voluptate perferendis excepturi ducimus laudantium, vero nisi maxime officiis neque molestiae.
     </p>
-
+    <hr>
 
     <h2>Carinhas</h2>
 
@@ -52,6 +53,253 @@
         <li>&#128521</li>
         <li>&#9749</li>
     </ul>
+    <hr>
+
+    <h2>Formulário</h2>
+    <br>
+
+    <form>
+        <div>
+            <label for="texto">Nome</label>
+            <input type="text" id="texto" name="nome">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="cpf">CPF</label>
+            <input type="cpf" id="cpf" name="cpf">
+        </div>
+
+        <div>
+            <label for="text">Gênero</label>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das Opções</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outros">Outros</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input type="date" id="data" name="Data">
+        </div>
+
+        <div>
+            <label for="numero">Número de Telefone</label>
+            <input type="numero" id="numero" name="numero" value="(  )">
+        </div>
+
+        <div>
+            <label for="webmaster">Quer ou não receber notificações por WhatsApp</label>
+            <input type="radio" id="webmaster" name="webmaster" value="Sim">Sim
+            <input type="radio" id="webmaster" name="webmaster" value="Não">Não
+        </div>
+        <label for="webmaster">Quer ou não receber ofertas por e-mail</label>
+        <input type="radio" id="webmaster" name="webmaster" value="Sim">Sim
+        <input type="radio" id="webmaster" name="webmaster" value="Não">Não
+    </form>
+    <hr>
+    <h2>Tabelas</h2>
+
+    <section id="banks">
+        <h3>Lista de Bancos em Falência</h3>
+
+        <table border="2">
+           <thead>
+                <tr>
+                    <th>Banco</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                    <th>Certificado</th>
+                    <th>IA</th>
+                    <th>Data de Fechamento</th>
+                    <th>Fundo</th>
+                </tr>
+           </thead> 
+
+           <tbody>
+                <tr>
+                    <td>Banco Primeira República</td>
+                    <td>São Francisco</td>
+                    <td>CA</td>
+                    <td>59017</td>
+                    <td>JPMorgan Chase Bank, NA</td>
+                    <td>1º de maio de 2023</td>
+                    <td>10543</td>
+                </tr>
+                    
+                <tr>
+                    <td>Banco de Assinatura</td>
+                    <td>Nova Iorque</td>
+                    <td>Nova Iorque</td>
+                    <td>570053</td>
+                    <td>Flagstar Bank, NA</td>
+                    <td>12 de março de 2023</td>
+                    <td>10540</td>
+                </tr>
+
+                <tr>
+                    <td>Banco do Vale do Silício</td>
+                    <td>Santa Clara</td>
+                    <td>CA</td>
+                    <td>24735</td>
+                    <td>First-Citizens Bank &Trust Company</td>
+                    <td>10 de março de 2023</td>
+                    <td>10539</td>
+                </tr>
+
+                <tr>
+                    <td>Almena State Bank</td>
+                    <td>Almena</td>
+                    <td>KS</td>
+                    <td>15426</td>
+                    <td>Banco de Ações</td>
+                    <td>23 de outubro de 2020</td>
+                    <td>10538</td>
+                </tr>
+
+                <tr>
+                    <td>Primeiro City Bank da Flórida</td>
+                    <td>Praia de Fort Walton</td>
+                    <td>FL</td>
+                    <td>16748</td>
+                    <td>Banco United Fidelity, FSB</td>
+                    <td>16 de outubro de 2020</td>
+                    <td>10537</td>
+                </tr>
+
+                <tr>
+                    <td>O Primeiro Banco Estadual</td>
+                    <td>Barboursville</td>
+                    <td>WV</td>
+                    <td>14361</td>
+                    <td>Banco MVB, Inc</td>
+                    <td>3 de abril de 2020</td>
+                    <td>10536</td>
+                </tr>
+
+                <tr>
+                    <td>Banco Estadual Ericson</td>
+                    <td>Ericson</td>
+                    <td>NE</td>
+                    <td>18265</td>
+                    <td>Banco de Agricultores e Comerciates</td>
+                    <td>14 de fevereiro de 2020</td>
+                    <td>10535</td>
+                </tr>
+
+                <tr>
+                    <td>Banco Nacional da Cidade de Nova Jersey</td>
+                    <td>Newark</td>
+                    <td>Nova Jersey</td>
+                    <td>21111</td>
+                    <td>Banco Industrial</td>
+                    <td>1º de novembro de 2019</td>
+                    <td>10534</td>
+                </tr>
+
+                <tr>
+                    <td>Banco Resolutivo</td>
+                    <td>Maumee</td>
+                    <td>OH</td>
+                    <td>28317</td>
+                    <td>Banco Estadual Buckeye</td>
+                    <td>25 de outubro de 2019</td>
+                    <td>10533</td>
+                </tr>
+
+                <tr>
+                    <td>Louisa Community Bank</td>
+                    <td>Louisa</td>
+                    <td>KY</td>
+                    <td>58112</td>
+                    <td>Kentucky Farmers Bank Corporation</td>
+                    <td>25 de outubro de 2019</td>
+                    <td>10532</td>
+                </tr>
+
+                <tr>
+                    <td>Banco do Estado de Enloe</td>
+                    <td>Tanoeiro</td>
+                    <td>Texas</td>
+                    <td>10716</td>
+                    <td>Legend Bank, NA</td>
+                    <td>31 de maio de 2019</td>
+                    <td>10531</td>
+                </tr>
+
+                <tr>
+                    <td>Banco Federal de Washington para Poupança</td>
+                    <td>Chicago</td>
+                    <td>IL</td>
+                    <td>30570</td>
+                    <td>Caixa Econômica Real</td>
+                    <td>15 de novembro de 2017</td>
+                    <td>10530</td>
+                </tr>
+            </tbody>
+            </table>
+            </section>
+
+            <br>
+
+            <section id="browsers">
+                <h3>Navegadores Visitados</h3>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Navegador</th>
+                        <th colspan="2">Visitantes</th>
+                    </tr>
+
+                    <tr>
+                    <th>Número</th>
+                    <th>Porcentagem</th>
+                    </tr>
+                </thead>
+
+                 <tbody>
+                    <tr>
+                        <td>Mozilla Firefox</td>
+                        <td>163</td>
+                        <td>59%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Google Chrome</td>
+                        <td>78</td>
+                        <td>28%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Safari</td>
+                        <td>35</td>
+                        <td>13%</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+            <hr>
+           
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Assistir aulas</li>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javasscript</li>
+                        <li>React</li>
+                    </ul>
+                <li>Fazer resumos</li>
+                <li>Leitura</li>
+                <li>Fazer exercícios</li>
+            </ol>
     </main>
 </body>
 </html>
